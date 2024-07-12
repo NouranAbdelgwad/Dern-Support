@@ -1,0 +1,121 @@
+:root{
+    --dark-blue: #124076;
+    --yellow: #FFC374;
+    --green: #80a081;
+    --light-yellow: #f9e998;
+}
+.text{
+    color: var(--dark-blue);
+}
+.logo{
+    width: 200px;
+}
+.nav-link{
+    color: var(--dark-blue) !important;
+}
+.nav-link:hover{
+    color: var(--yellow) !important;
+}
+.profile-img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.navbar-nav{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.logo-footer{
+    width: 400px;
+}
+.link-style{
+    text-decoration: unset;
+    color: var(--dark-blue);
+}
+.link-style:hover{
+    color: var(--yellow);
+}
+.home {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url("https://plus.unsplash.com/premium_photo-1663040521523-6326a289b114?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.home button {
+    padding: 10px 20px;
+    border: 1px solid var(--yellow);
+    border-radius: 25px;
+    background-color: var(--yellow);
+    color: white;
+    margin-top: 10px;
+}
+.standard-btn{
+    padding: 10px 20px;
+    border: 1px solid var(--yellow);
+    border-radius: 25px;
+    background-color: var(--yellow);
+    color: white;
+    margin-top: 10px;
+}
+.learn{
+    background-color: white !important;
+    color: var(--dark-blue) !important;
+    margin-left: 20px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+.home h1 {
+    font-size: 3rem;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(211, 211, 211, 0.178);
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    padding: 20px;
+    margin: 10px;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+.services p{
+    color: gray;
+}
+.icon{
+    color: var(--green);
+    margin: 20px;
+}
+.know{
+    text-decoration: none;
+    color: gray;
+}
+.event-img {
+    border-radius: 20px;
+    width: 150px;
+    object-fit: cover;
+}
+.card-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
